@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- MENU Header -->
+    <div class="container-header">
+      <header>
+        <div class="logo">
+          <a href="#">Ali Nour</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#home" onclick="seleccionar()">Home</a></li>
+            <li><a href="#about" onclick="seleccionar()">About Me</a></li>
+            <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+            <li>
+              <a href="#cv" onclick="seleccionar()">Curriculum Vitae </a>
+            </li>
+            <li><a href="#portfolio" onclick="seleccionar()">Portfolio</a></li>
+            <li><a href="#contact" onclick="seleccionar()">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+
+    <!-- SECCION HOME -->
+    <section id="home" class="home">
+      <div class="container-banner">
+        <div class="container-img">
+          <img src="img/hero.jpg" alt="personal photo" />
+        </div>
+        <h1>Ali Nour</h1>
+        <h2>software engineer - Cs Student</h2>
+        <div class="social-media">
+          <a href="https://www.facebook.com/abo2002nour"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="https://twitter.com/Alimuha84479016"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="#"><i class="fa-brands fa-skype"></i></a>
+          <a href="https://www.linkedin.com/in/alinourr/"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION ABOUT ME -->
+    <section id="about" class="about">
+      <div class="container-seccion">
+        <h2>About Me</h2>
+        <p>
+          <span>Hi, I'm Ali Nour.</span>
+          undergraduate student in my third year at the faculty of computer
+          science and information at Suez Canal University. Enthusiastic,
+          details oriented, and interested in problem-solving and web development.
+        </p>
+
+        <div class="file">
+          <!-- personal information -->
+          <div class="col">
+            <h3>personal information</h3>
+            <ul>
+              <li>
+                <strong>Birthday</strong>
+                01-01-2002
+              </li>
+              <li>
+                <strong>Phone Number</strong>
+                01558795522
+              </li>
+              <li>
+                <strong>Email</strong>
+                alinoorspam@gmail.com
+              </li>
+              <li>
+                <strong>Linkedin</strong>
+                alinourr
+              </li>
+              <li>
+                <strong>Address</strong>
+                120 ismailia, Egypt
+              </li>
+              <li>
+                <strong>Position</strong>
+                <span>Student</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- interests -->
+          <div class="col">
+            <h3>interests</h3>
+            <div class="container-intereses">
+              <div class="interes">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>GAMES</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-headphones"></i>
+                <span>MUSIC</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-plane"></i>
+                <span>TRAVEL</span>
+              </div>
+              <div class="interes">
+                <i class="fa-sharp fa-solid fa-ticket-simple"></i>
+                <span>Netflix</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-person-hiking"></i>
+                <span>SPORT</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-book"></i>
+                <span>BOOKS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-car"></i>
+                <span>CARS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-camera"></i>
+                <span>PHOTOS </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button>
+          Download CV <i class="fa-solid fa-download"></i>
+          <span class="overlay"></span>
+        </button>
+      </div>
+    </section>
+
+    <!--SKILLS -->
+    <section class="skills" id="skills">
+      <div class="container-section">
+        <h2>Skills</h2>
+        <div class="file">
+          <!-- Technical Skill -->
+          <div class="col">
+            <h3>Technical Skills</h3>
+            <div class="skill">
+              <span>Javascript</span>
+              <div class="bar-skill">
+                <div class="progress">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>HTML & CSS</span>
+              <div class="bar-skill">
+                <div class="progress">
+                  <span>89%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>UX/UI-design</span>
+              <div class="bar-skill">
+                <div class="progress">
+                  <span>95%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Wordpress</span>
+              <div class="bar-skill">
+                <div class="progress">
+                  <span>81%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Web-Design</span>
+              <div class="bar-skill">
+                <div class="progress">
+                  <span>55%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Professional Skills -->
+          <div class="col">
+            <h3>Professional Skills</h3>
+            <div class="skill">
+              <span>Communication </span>
+              <div class="bar-skill">
+                <div class="progress">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Teamwork</span>
+              <div class="bar-skill">
+                <div class="progress">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Creativity</span>
+              <div class="bar-skill">
+                <div class="progress">
+                  <span>99%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Dedication</span>
+              <div class="bar-skill">
+                <div class="progress">
+                  <span>65%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Project management</span>
+              <div class="bar-skill">
+                <div class="progress">
+                  <span>94%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION CV -->
+    <section id="cv" class="curriculum">
+      <div class="contenido-seccion">
+        <h2>Curriculum Vitae</h2>
+        <div class="fila">
+          <div class="col izquierda">
+            <h3>Education</h3>
+            <div class="item izq">
+              <h4>Computer Science</h4>
+              <span class="casa">Suez Canal University</span>
+              <span class="fecha">2020 - 2024</span>
+              <p>
+                I am an undergraduate student in my third year at the faculty of
+                computer science and information at Suez Canal University.
+                Enthusiastic, details oriented
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Computer Science</h4>
+              <span class="casa">Suez Canal University</span>
+              <span class="fecha">2020 - 2024</span>
+              <p>
+                I am an undergraduate student in my third year at the faculty of
+                computer science and information at Suez Canal University.
+                Enthusiastic, details oriented
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Computer Science</h4>
+              <span class="casa"
+                >Suez Canal University</span
+              >
+              <span class="fecha">2020 - 2024</span>
+              <p>
+                I am an undergraduate student in my third year at the faculty of
+                computer science and information at Suez Canal University.
+                Enthusiastic, details oriented
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col derecha">
+            <h3>Work experience</h3>
+            <div class="item der">
+              <h4>Front end Developer</h4>
+              <span class="casa">Amazon</span>
+              <span class="fecha">2021 - 2022</span>
+              <p>
+                Proficient in JavaScript, PHP, Laravel, Bootstrap, AJAX, HTML,
+                CSS, MySQL Experience in development of plugins Excellent
+                knowledge of APIs
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Game Developer</h4>
+              <span class="casa">Apple</span>
+              <span class="fecha">2022 - 2022</span>
+              <p>
+                Planning and implementing gameplay functionalities • Working on
+                and contributing to our Unreal Engine version • Improving and
+                controlling the game performance
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Game Developer</h4>
+              <span class="casa">Epic Games</span>
+              <span class="fecha">2020 - 2021</span>
+              <p>
+                • Creating and estimating tasks and user stories • Maintaining
+                the product and providing bug fixes • Evaluating new
+                technologies and plugins • Communicating with and supporting
+                other departments
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+      <div class="contanier-section">
+        <h2>PORTFOLIO</h2>
+        <div class="gallery">
+          <div class="Project">
+            <img src="img/p1.jpg" alt="" />
+            <div class="overlay">
+              <h3>Game devolpment</h3>
+              <p>Opengl C++</p>
+            </div>
+          </div>
+          <div class="Project">
+            <img src="img/p2.jpg" alt="" />
+            <div class="overlay">
+              <h3>DeskTop Application</h3>
+              <p>Java</p>
+            </div>
+          </div>
+          <div class="Project">
+            <img src="img/p3.jpg" alt="" />
+            <div class="overlay">
+              <h3>Ecommerce website</h3>
+              <p>Javascript</p>
+            </div>
+          </div>
+          <div class="Project">
+            <img src="img/p4.webp" alt="" />
+            <div class="overlay">
+              <h3>UI Design</h3>
+              <p>Figma</p>
+            </div>
+          </div>
+          <div class="Project">
+            <img src="img/p4.jpg" alt="" />
+            <div class="overlay">
+              <h3>Application</h3>
+              <p>c</p>
+            </div>
+          </div>
+          <div class="Project">
+            <img src="img/p6.jpg" alt="" />
+            <div class="overlay">
+              <h3>UX Research</h3>
+              <p>Figma</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION CONTACT -->
+    <section id="contact" class="contact">
+      <div class="container-section">
+        <h2>CONTACT</h2>
+        <div class="file">
+          <!-- Form -->
+          <div class="col">
+            <input type="text" placeholder="Your name" />
+            <input type="text" placeholder="Phone number" />
+            <input type="text" placeholder="Mail address" />
+            <input type="text" placeholder="Topic" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+            <button>
+              Send Message<i class="fa-solid fa-paper-plane"></i>
+              <span class="overlay"></span>
+            </button>
+          </div>
+          <!-- Map -->
+          <div class="col">
+            <img src="img/Map.png" alt="" />
+            <div class="info">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  ismailia, Egypt
+                </li>
+                <li>
+                  <i class="fa-solid fa-mobile-screen"></i>
+                  call me: 01015559496
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                 Email: ali@gmail.com
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <a href="#home" class="up">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+      <div class="social-media">
+        <a href="https://www.facebook.com/abo2002nour"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a href="https://twitter.com/Alimuha84479016"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="#"><i class="fa-brands fa-skype"></i></a>
+        <a href="https://www.linkedin.com/in/alinourr/"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a href="#"><i class="fa-solid fa-rss"></i></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
